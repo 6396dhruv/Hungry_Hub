@@ -1,0 +1,34 @@
+.header{
+    height: 35vw;
+    margin: 30px auto;
+    background:  url('../../assets/header.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadein 3s;
+}
+
+.header-content h2{
+    font-weight: bold;
+    font-size: 50px;
+    color: aqua;
+}
+
+.header-content .span{
+    color: white;
+}
+.header-content p{
+    color: white;
+    font-weight: bold;
+}
+
